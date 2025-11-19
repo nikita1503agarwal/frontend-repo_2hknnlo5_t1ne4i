@@ -1,0 +1,84 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 263 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.47.199:3000/
+10:25:21 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:36:34: ERROR: Expected "}" but found "translate3d"
+10:25:21 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:36:34: ERROR: Expected "}" but found "translate3d"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:36:34
+  
+  Expected "}" but found "translate3d"
+  34 |            const x = e.clientX - 80;
+  35 |            const y = e.clientY - 80;
+  36 |            glow.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+     |                                    ^
+  37 |          }, { passive: true });
+  38 |        `}} />
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+10:25:46 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:36:34: ERROR: Expected "}" but found "translate3d"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:36:34
+  
+  Expected "}" but found "translate3d"
+  34 |            const x = e.clientX - 80;
+  35 |            const y = e.clientY - 80;
+  36 |            glow.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+     |                                    ^
+  37 |          }, { passive: true });
+  38 |        `}} />
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+
+Could not open App.jsx in the editor.
+The editor process exited with an error: spawn vi ENOENT ('vi' command does not exist in 'PATH').
+
+10:26:19 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:36:34: ERROR: Expected "}" but found "translate3d"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:36:34
+  
+  Expected "}" but found "translate3d"
+  34 |            const x = e.clientX - 80;
+  35 |            const y = e.clientY - 80;
+  36 |            glow.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+     |                                    ^
+  37 |          }, { passive: true });
+  38 |        `}} />
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
